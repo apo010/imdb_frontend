@@ -2,10 +2,10 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Layout from "../Layout/Index";
 import Home from "../../pages/Home";
 import Movies from "../../pages/Movies";
-import Series from "../../pages/Series";
+import Series from "../../pages/Series/Series";
 import Celebs from "../../pages/Celebs";
 import Discovery from "../../pages/Discovery";
-import Signup from "../../pages/Signup";
+import Signup from "../../pages";
 import Signin from "../../pages/Signin";
 
 function MenuRoutes() {

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FetchCelebs } from '../components/Fetch/Index';
+import { FetchCelebs } from '../../components/Fetch/Index';
 
 interface Celeb {
     id: number;
@@ -13,7 +13,7 @@ interface Celeb {
 export default function Celebs() {
     const [celebs, setCelebs] = useState<Celeb[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const celebsPerPage = 4;
+    const celebsPerPage = 3;
 
     const handlePageChange = (page: number) => {
         setCurrentPage(page);

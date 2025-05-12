@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FetchMovies, Movie } from "../components/Fetch/Index";
+import { FetchMovies, Movie } from "../../components/Fetch/Index";
 import { SlStar } from "react-icons/sl";
 import { IoIosPlay } from "react-icons/io";
 
